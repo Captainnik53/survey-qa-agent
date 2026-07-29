@@ -182,17 +182,7 @@ export ANTHROPIC_API_KEY=...  # optional; enables the LLM textual net
   for this task — but if that assumption breaks, LLM-assisted parsing (with a schema +
   validation) is the more robust foundation, and much of the downstream flakiness traces back
   to imperfect parsing rather than the checks themselves.
-- **Multi-level back-chaining for 100% coverage** — the candidate generator does role +
-  single-level gate pins; reaching deep chains (e.g. Axonius *currently-use* → Q_Current →
-  Q_UseDr) needs recursive back-chaining of `ASK IF` dependencies.
-- **A fuller condition interpreter** — compound (`A AND B`), range/set, and instruction-level
-  terminate rules ("terminate if role ≠ …") that aren't attached to a single option.
-- **Fork-at-branch + parallel walks** — paths share a long screener prefix; snapshotting the
-  session at branch points (or parallelizing) would cut redundant re-walking.
-- **Calibrated confidence** — with only a few labeled bugs, "High = 95% precision" is a claim,
-  not a measurement; a larger seeded ground-truth set would make the tiers verifiable.
-- **Robustness to the live product** — sample variants (`_vis`), loop-page text extraction,
-  and test-link/quota behaviour on Decipher are handled pragmatically but could be hardened.
+
 
 ---
 
