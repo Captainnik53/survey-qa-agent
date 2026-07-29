@@ -1,0 +1,3885 @@
+{
+  "source": "/home/nik/Downloads/Survey_2.docx",
+  "n_questions": 61,
+  "questions": [
+    {
+      "id": "HQCOSIZE",
+      "text": "=1 & HQCOTYPE=1",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1000-4999 FTE & Cyber",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "N=50",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SMB/MM & IT",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQCOSIZE",
+      "text": "=1  & HQCOTYPE=2",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1000-4999 FTE & IT",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "N=50",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise & Cyber",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQCOSIZE",
+      "text": "=2 & HQCOTYPE=1",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "5000+ FTE & Cyber",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "N=100",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise & IT",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQCOSIZE",
+      "text": "=2 & HQCOTYPE=2",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "5000+ FTE & IT",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "N=100",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "QuotaS_CS",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Client",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TBD",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Client Sample",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "N=150",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Geography",
+      "text": "In which of the following regions do you currently work?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "United States",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Europe",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "Latin America",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "APAC",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "None of the above",
+          "terminate": true,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_FullTimeEmployment",
+      "text": "Which of the statements below best describes your employment status?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Employed full-time (35+ hours weekly)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Employed part-time",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "A student",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "A homemaker or caregiver",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "Retired",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "Unemployed",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "None of the above",
+          "terminate": true,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_DecisionMakingAuthority",
+      "text": "Which of the following below describes your decision-making authority in the evaluation or selection of cyber security or information security software?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "I am the final decision maker",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "I am part of a team that makes the decisions",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "I influence the decisions",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "I have no input into decisions",
+          "terminate": true,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_JobSeniority",
+      "text": "Which of the following best describes your seniority within your organization?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "C-Level",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Department Head or Line of Business Head",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Vice President (Executive, Senior, etc.)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Senior Director or Director",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Senior Manager or Manager",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "Senior Analyst or Analyst",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "Staff Member or Individual Contributor",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "None of the above",
+          "terminate": true,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_CoSize",
+      "text": "Which of the following best describes the size of your organization, including all locations worldwide? Your best estimate is fine.",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Less than 100 employees",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "100 to 249 employees",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "250 to 499 employees",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "500 to 999 employees",
+          "terminate": true,
+          "anchor": false
+        },
+        {
+          "label": "1,000 to 1,499 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500 to 1,999 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,000 to 2,499 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500 to 4,999 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000 to 9,999 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "10,000 to 24,999 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "25,000 to 49,999 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "50,000 to 99,999 employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "100,000+ employees",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Don’t know",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQCOSIZE",
+      "text": "Company Size",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "SMB/MM (S_CoSize=5-8 - 1,000 to 4,999 employees)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise  (S_CoSize=9-13 - 5,000 + employees)",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_CompanyInd",
+      "text": "Which of the below most closely describes your company’s industry?",
+      "text_struck": [],
+      "type": "single",
+      "order": "alphabetical",
+      "options": [
+        {
+          "label": "Accounting, legal, consulting, or other professional services",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Automotive",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Construction",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Consumer goods or manufacturing",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Education",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Energy",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Finance services, banking, and insurance",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Government",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Hospital & Health Care",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Information Technology, Technology,and Software",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Marketing & Advertising",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Media, gaming, or entertainment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Retail",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Telecommunications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Other (Please specify)",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Role",
+      "text": "Which of the following best describes your functional role at work?  This would be your primary area of responsibility.",
+      "text_struck": [],
+      "type": "single",
+      "order": "alphabetical",
+      "options": [
+        {
+          "label": "Administration or management",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber security/information security",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Human Resources",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "IT/Information technology",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Legal",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Logistics",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Market",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Procurement",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Sales",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Other role",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_ProcType",
+      "text": "You mentioned your functional role at work is in procurement.  Which of the following areas of your company's purchases are you responsible for?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "alphabetical",
+      "options": [
+        {
+          "label": "Advertising, media and marketing (e.g., ad buys, marketing materials)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "IT Hardware (e.g., laptops, servers, switches)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "IT Software (e.g., Office 365, Antivirus, Network Monitoring)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Maintenance or repair services (e.g., housekeeping, janitorial, equipment maintenance)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Manufacturing equipment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Professional Services (e.g., accounting, consulting)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Raw materials (e.g., components for manufacturing)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Other areas",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": "S_ROLE=8 PROCUREMENT"
+    },
+    {
+      "id": "HQCOTYPE",
+      "text": "COMPANY TYPE",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Security DMs - S_Role=2 (Cybersecurity)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "IT DM’s - S_Role=4 (IT) or",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Assets",
+      "text": "Which of the following devices or assets do you or employees in your company use that the organization manages?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "randomize",
+      "options": [
+        {
+          "label": "Laptop computers",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Desktop computers",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Virtualized personal computers",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Mobile phones or tablets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Physical servers",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Virtualized servers",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Containers (e.g., self-contained OS and applications, Docker containers)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identities (e.g., user logins)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software applications which require licensing, patching, updating, etc",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software as a Service (SaaS) applications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "None of the above",
+          "terminate": true,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Familiar",
+      "text": "How familiar are you with each of the following types of IT security software?",
+      "text_struck": [],
+      "type": "grid",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Very familiar",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Familiar",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Somewhat familiar",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Not familiar at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Asset Attack Surface Management software (CAASM) (e.g., inventory connected devices and identify and remediate security issues)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Vulnerability management software (e.g., automate scanning, identify and address hardware vulnerabilities)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Endpoint security software (e.g., antivirus, antimalware)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Zero trust software (e.g., zero trust systems for access)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Intrusion detection/intrusion prevention (IDS/IPS) (e.g., identify and prevent network intrusions)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Systems management software (e.g., performance, usage, updates for servers)",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Usage",
+      "text": "Which, if any, of the following types of IT software does your company currently use?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "randomize",
+      "options": [
+        {
+          "label": "Cyber Asset Attack Surface Management software (CAASM) (e.g., inventory connected devices and identify and remediate security issues)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Vulnerability management software (e.g., automate scanning, identify and address hardware vulnerabilities)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Endpoint security software (e.g., Antivirus, antimalware)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Zero trust software (e.g., zero trust systems for access)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Intrusion detection/intrusion prevention (IDS/IPS) (e.g., identify and prevent network intrusions)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Systems management software (e.g., performance, usage, updates for servers)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "None of the above",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Intend",
+      "text": "Which, if any, of the following types of IT software does your company intend to purchase in the next 12 months?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "randomize",
+      "options": [
+        {
+          "label": "None of the above",
+          "terminate": false,
+          "anchor": true
+        },
+        {
+          "label": "To start, we would like to provide you with some definitions to ensure everyone has the same frame of reference when answering these questions",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Assets:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "An asset is an individual device (e.g., laptops, desktops, servers, phones, tablets), virtualized device (e.g., Virtual desktop, server), containerized application (e.g., Docker), identity/individual user login (e.g., network logins, software logins), a software instance which requires user management, licensing, patching, or updates, or a SaaS application that requires user management, licensing, patching, or updates",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": "SOFTWARE",
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Assets",
+      "text": "To the best of your knowledge, how many assets does your organization have based on the description above in each of the following categories?",
+      "text_struck": [],
+      "type": "numeric",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Hardware or virtualized assets (e.g., physical or virtual laptops, servers, phones, tablets)- Min 1, Max 19,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identity or user login assets (e.g., network logins, software logins, SaaS logins)- Min 1, Max 199,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software assets (e.g., software instances or licenses)- Min 1, Max 19,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS assets (e.g., SaaS applications)- Min 1, Max 19,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Hardware or virtualized assets (e.g., physical or virtual laptops, servers, phones, tablets) - 1000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identity or user login assets (e.g., network logins, software logins, SaaS logins) - 500",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software assets (e.g., software instances or licenses) - 600",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS assets (e.g., SaaS applications) - 250",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {
+        "min": 1,
+        "max": 19000000
+      },
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQASSETS",
+      "text": "PRODUCT TYPES",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "SUM TOTAL  FROM ALL OPTIONS AT Q_ASSETS",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SUM TOTAL FROM ALL OPTIONS AT Q_ASSETS",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SUM TOTAL FROM ALL OPTIONS AT Q_ASSETS",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_PrefINTRO",
+      "text": "CAASM Software:",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "CAASM software is a category of cybersecurity solutions designed to help organizations identify, monitor, and manage all of their cyber assets (both internal and external), while continuously analyzing the associated attack surface.  In simpler terms, it gives security teams a comprehensive, timely inventory of assets and highlights any maintenance needed and/or any risks associated with each asset",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "There are three different pricing models for CAASM",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Per user based pricing model:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "In a per user based pricing model, there is a cost for each user who has devices which are monitored on the platform, and your annual cost is based on the total # of users",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Per device based pricing model:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "In a per device based pricing model, there is a small cost for each device  monitored on the platform, and your annual cost is based on the total # of devices",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Tier based pricing model:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Tier based pricing is based on the number of assets (users and devices), the number of assets is grouped into different tiers (e.g., 1-999, 1,000-4,999).  Each tier has an associated price point, and your cost is tied to the tier which includes your total # of assets",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_PrefUserDev",
+      "text": "1 - Per user based pricing model",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "6 - Per device based pricing model",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_PrefOverall",
+      "text": "And , would you prefer a per asset (users and/or devices) based pricing model or a tier based pricing model?  Please mark closer to the answer you prefer.",
+      "text_struck": [
+        "If you were shopping for CAASM software for your organization"
+      ],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1 - Per asset based pricing model",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6 - Tier based pricing model",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Billing",
+      "text": "Monthly",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Quarterly",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Semi-annually (2X per year)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Annually",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Some other billing cadence (Please specify)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "RANDOMLY SELECT 1 PRODUCT, SHOW DESCRIPTION AND ASK FULL PRODUCT LOOP (VAN WESTENDORP LOOP, GABOR GRANGER LOOP, SUPPORT LOOP)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SECURITY DMS (HQCOTYPE=1) WILL SEE:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Exposures",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "The Exposures product provides a single place to unify exposure findings, correlate and rank risks, and execute prioritized large-scale mitigation efforts",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Provides actionable visibility into software usage across the organization – empowering Security, IT, and GRC teams to uncover unsanctioned software, manage EOL/EOS, and take control of costs",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "IT DMS (HQCOTYPE=2)  WILL SEE:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Asset",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Unifies  all identity artifacts in one place to transform fragmented data into actionable insights – centralizing discovery, governance, posture, and incident response efforts for your IAM programs",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS Applications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Provides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TO CALCULATE THE PRICE FIND THE RANGE  IN THE LOOKUP TABLE FOR EACH PRODUCT (E.G., CYBER ASSETS) WHICH INCLUDES THE VALUE FROM HQASSETS (E.G., 2,500-4,999) FOR THAT PRODUCT TYPE AND RETURN THE COST ($72,500) AND STORE IN HQPRICES_”PRODUCT TYPE” (3) AS TARGET PRICE FOR THAT PRODUCT",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "THEN CALCULATE THE HIGH LOW PRICES FOR L20, L10, H10, H20 BASED ON TARGET PRICE -20%, -10%, +10%, +20% AND POPULATE INTO HQPRICES_”PRODUCT TYPE” FOR PIPING",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "EXAMPLE:",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "HQPRICES_Cyber",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L20 - TP MINUS 20% (E.G., $72,500 - $14,500 = $58,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L10 - TP MINUS 10% (E.G., $72,500 - $7,250 = $65,250",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TP - VALUE FROM LOOKUP TABLE = $72,500",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H10 - TP PLUS 10% (E.G., $72,500 + $7,250 = $79,750",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H20 - TP PLUS 20% (E.G., $72,500 - $14,500 = $87,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "PRODUCT TYPES",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Exposures",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS Applications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "HQPRICES_Cyber",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L20 - TP MINUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L10 - TP MINUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TP - VALUE FROM LOOKUP TABLE",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H10 - TP PLUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H20 - TP PLUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "HQPRICES_Exposures",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L20 - TP MINUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L10 - TP MINUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TP - VALUE FROM LOOKUP TABLE",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H10 - TP PLUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H20 - TP PLUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "HQPRICES_Software",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L20 - TP MINUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L10 - TP MINUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TP - VALUE FROM LOOKUP TABLE",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H10 - TP PLUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H20 - TP PLUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "HQPRICES_Identity",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L20 - TP MINUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L10 - TP MINUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TP - VALUE FROM LOOKUP TABLE",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H10 - TP PLUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H20 - TP PLUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "HQPRICES_SaaS",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L20 - TP MINUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "L10 - TP MINUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "TP - VALUE FROM LOOKUP TABLE",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H10 - TP PLUS 10%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "H20 - TP PLUS 20%",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Sum # of Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Sum # of  Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Exposures",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Sum # of Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$34,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$17,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$8,400",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "500 - 1,499",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$45,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "500 - 1,499",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$22,500",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "500 - 1,499",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$13,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500 - 2,499",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$58,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500 - 2,499",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$29,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500 - 2,499",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$18,400",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500 - 4,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$72,500",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500 - 4,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$36,250",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500 - 4,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$24,300",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000 - 9,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$93,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000 - 9,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$46,500",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000 - 9,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$32,600",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "10,000 - 14,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$125,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "10,000 - 14,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$62,500",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "10,000 - 14,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$44,200",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "15,000 - 24,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$170,100",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "15,000 - 24,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$85,050",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "15,000 - 24,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$60,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "25,000 - 39,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$260,820",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "25,000 - 39,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$130,410",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "25,000 - 39,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$92,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "40,000 - 59,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$340,200",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "40,000 - 59,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$170,100",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "40,000 - 59,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$120,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "60,000 - 99,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$425,250",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "60,000 - 99,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$212,625",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "60,000 - 99,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$150,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "100,000 - 149,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$540,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "100,000 - 149,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$270,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "100,000 - 149,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$190,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "150,000 - 249,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$680,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "150,000 - 249,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$340,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "150,000 - 249,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$240,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "250,000 - 399,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$880,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "250,000 - 399,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$440,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "250,000 - 399,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$310,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "400,000 - 699,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,130,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "400,000 - 699,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$565,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "400,000 - 699,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$400,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "700,000 - 999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,340,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "700,000 - 999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$670,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "700,000 - 999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$472,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,000,000 - 1,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,540,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,000,000 - 1,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$770,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,000,000 - 1,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$544,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500,000 - 1,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,760,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500,000 - 1,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$880,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1,500,000 - 1,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$620,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,000,000 - 2,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,040,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,000,000 - 2,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,020,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,000,000 - 2,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$720,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500,000 - 2,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,270,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500,000 - 2,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,135,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "2,500,000 - 2,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$800,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3,000,000 - 3,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,490,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3,000,000 - 3,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,245,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3,000,000 - 3,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$880,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3,500,000 - 3,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,660,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3,500,000 - 3,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,330,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3,500,000 - 3,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$940,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "4,000,000 - 4,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,890,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "4,000,000 - 4,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,445,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "4,000,000 - 4,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,020,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "4,500,000 - 4,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,120,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "4,500,000 - 4,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,560,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "4,500,000 - 4,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,100,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000,000 - 5,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,350,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000,000 - 5,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,675,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,000,000 - 5,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,200,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,500,000 - 5,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,570,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,500,000 - 5,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,785,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5,500,000 - 5,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,300,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6,000,000 - 6,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,800,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6,000,000 - 6,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,900,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6,000,000 - 6,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,400,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6,500,000 - 6,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,030,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6,500,000 - 6,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,015,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6,500,000 - 6,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,500,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7,000,000 - 7,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,250,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7,000,000 - 7,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,125,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7,000,000 - 7,499,999+",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,600,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7,500,000 - 7,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,480,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7,500,000 - 7,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,240,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "8,000,000 - 8,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,710,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "8,000,000 - 8,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,355,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "8,500,000 - 8,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,930,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "8,500,000 - 8,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,465,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "9,000,000 - 9,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$5,160,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "9,000,000 - 9,499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,580,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "9,500,000 - 9,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$5,390,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "9,500,000 - 9,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,695,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "10M+",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$5,610,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "10M+",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,805,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "# of identities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "# of identities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS Login",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$45,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$88,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$150,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$150,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$235,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$235,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$350,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$350,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$500,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$500,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$750,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$750,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,500,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,500,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,200,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,200,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,000,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Today we are asking people about Cyber Asset Attack Surface Management software (CAASM).  We are going to be showing you some descriptions of CAASM software packages and then asking some questions to understand your preferences",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "The first product we would like to ask you about is below.  Please review and answer the questions which follow",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "The next product we would like to ask you about is below.  Please review and answer the questions which follow",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Int",
+      "text": "Overall, how interested are you in acquiring this software package for your company?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_SupportInt",
+      "text": "There are two different support options which could be added to this product for an additional cost.  How interested are you in each of these support options?",
+      "text_struck": [],
+      "type": "grid",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Advanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "We would like to know how much you would expect to pay annually based on your company's number of  assets if the software was licensed using a per asset based pricing system",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Earlier you told us that your company has the following # of Assets which would be applicable to this software:",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_VW_EX",
+      "text": ", Q_VW_TE",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_VW_EX",
+      "text": ", Q_VW_TE",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Thinking about the product shown below:",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_VW_TC",
+      "text": "At what annual cost would you feel the cost was too cheap?  This would be a price which is so inexpensive that you would question the quality or ability of the software to perform as advertised.",
+      "text_struck": [],
+      "type": "numeric",
+      "order": "as_listed",
+      "options": [],
+      "validation": {
+        "min": 1,
+        "max": 19000000
+      },
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_VW_RP",
+      "text": "At what annual cost would you feel the cost was right?  This would be a price you would expect and consider a reasonable value.",
+      "text_struck": [],
+      "type": "numeric",
+      "order": "as_listed",
+      "options": [],
+      "validation": {
+        "min": 1,
+        "max": 19000000
+      },
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_VW_EX",
+      "text": "At what annual cost would you feel the cost was expensive but reasonable?  This would be a price which is more than you might have expected, and somewhat expensive but still reasonable for the value it provides.",
+      "text_struck": [],
+      "type": "numeric",
+      "order": "as_listed",
+      "options": [],
+      "validation": {
+        "min": 1,
+        "max": 19000000
+      },
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_VW_TE",
+      "text": "At what annual cost would you feel the cost was too expensive?  This would be a price where it was so expensive that you would not consider it as the cost outweighs the value.",
+      "text_struck": [],
+      "type": "numeric",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Next we would like to understand your purchase interest at some different pricing levels for this product",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Thinking about the product shown below:",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {
+        "min": 1,
+        "max": 19000000
+      },
+      "carry_forward": "PRICES",
+      "ask_condition": null
+    },
+    {
+      "id": "Q_GGTP",
+      "text": "- Target Price",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "How likely would you be to purchase this software for your company if the cost were  per year?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not likely at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely likely",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_GGL20",
+      "text": "- Low 20% Price",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "And, how likely would you be to purchase this software for your company if the cost were   per year?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_GGL10",
+      "text": "- Low 10%  Price",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "And, how likely would you be to purchase this software for your company if the cost were  per year?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_GGH10",
+      "text": "- Higher 10% Price",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "And, how likely would you be to purchase this software for your company if the cost were   per year?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_GGH20",
+      "text": "- Higher 20% Price",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "And, how likely would you be to purchase this software for your company if the cost were  per year?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "20% - $14,500 PER YEAR",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "25% - $18,125 PER YEAR",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "30% - $21,750PER YEAR",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "40% - $29,000 PER YEAR",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "50% - $36,250 PER YEAR",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQADSUPCOST",
+      "text": "20% OF HQPRICES_”PRODUCT TYPE” TP (3)",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "25% OF HQPRICES_”PRODUCT TYPE” TP (3)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "30% OF HQPRICES_”PRODUCT TYPE” TP (3)",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQENTSUPCOST",
+      "text": "30% OF HQPRICES_”PRODUCT TYPE” TP (3)",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "40% OF HQPRICES_”PRODUCT TYPE” TP (3)",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "50% OF HQPRICES_”PRODUCT TYPE” TP (3)",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_SupportPI_LP",
+      "text": "FIRST LOOP: Shown below are the two different support options for this product",
+      "text_struck": [],
+      "type": "grid",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "FIRST LOOP: Shown below are the two different support options for this product",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Advanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "How interested you would be in adding each of these support levels at the incremental annual cost shown?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Advanced Support: Incremental cost",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Incremental cost",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_SupportPI_TP",
+      "text": "Shown below are the two different support options for this product",
+      "text_struck": [],
+      "type": "grid",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Advanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "How interested you would be in adding each of these support levels at the incremental annual cost shown?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Advanced Support: Incremental cost",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Incremental cost",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_SupportPI_HP",
+      "text": "Shown below are the two different support options for this product",
+      "text_struck": [],
+      "type": "grid",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Advanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "How interested you would be in adding each of these support levels at the incremental annual cost shown?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Advanced Support: Incremental cost",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Enterprise Support: Incremental cost",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQDISCOUNT",
+      "text": "10% discount",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "15% discount",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "20% discount",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Bundle 1 = CyberAssets + Exposures + Software Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Bundle 2 = Cyber assets + Identities + SaaS Applications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Bundle 3 = Cyber assets + Software assets + SaaS Applications",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQBUNDLECOST",
+      "text": "AGGREGATED TARGET PRICE FOR BUNDLE 1 PRODUCTS (CyberAssets (TP) + Exposures (TP) + Software Assets (TP))",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "AGGREGATED TARGET PRICE FOR BUNDLE 2 PRODUCTS (Cyber assets (TP) + Identities (TP) + SaaS Applications (TP))",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "AGGREGATED TARGET PRICE FOR BUNDLE 3 PRODUCTS (Cyber assets (TP) + Software assets (TP) + SaaS Applications (TP))",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "HQDISCOUNTCOST",
+      "text": "DISCOUNTED PRICE FOR BUNDLE 1 = HQBUNDLECOST (1) LESS DISCOUNT",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "DISCOUNTED PRICE FOR BUNDLE 2 = HQBUNDLECOST (2) LESS DISCOUNT",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "DISCOUNTED PRICE FOR BUNDLE 3 = HQBUNDLECOST (3) LESS DISCOUNT",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_BundleIntA",
+      "text": "Next we would like to understand your interest in purchasing this type of software as a bundle.  A bundle is when you get a package with multiple pieces of software at a discounted price.",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "This bundle would include the Cyber Assets, Exposures, and Software Assets products",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Exposures",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: The Axonius Exposures product provides a single place to unify exposure findings, correlate and rank risks, and execute prioritized large-scale mitigation efforts",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: Provides actionable visibility into software usage across the organization – empowering Security, IT, and GRC teams to uncover unsanctioned software, manage EOL/EOS, and take control of costs",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "This bundle would include the Cyber Assets, Identities, and SaaS applications products",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Asset",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Identities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: Unifies  all identity artifacts in one place to transform fragmented data into actionable insights – centralizing discovery, governance, posture, and incident response efforts for your IAM programs",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS Applications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: Provides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Regular price for this software individually would be",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "The discounted bundle price would be",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "How interested would you be in purchasing the software bundle shown below if it were offered at a  and cost HQDISCOUNTCOST 1 IF BUNDLE 1 SECURITY OR 2 IF BUNDLE 2 IT]?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_BundleIntB",
+      "text": "Next we would like to understand your interest in purchasing this type of software as a bundle.  A bundle is when you get a package with multiple pieces of software at a discounted price.",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "This bundle would include the Cyber Assets, Software, and SaaS Applications products",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Cyber Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Software Assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: Provides actionable visibility into software usage across the organization – empowering Security, IT, and GRC teams to uncover unsanctioned software, manage EOL/EOS, and take control of costs",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "SaaS Applications",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Description: Provides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Regular price for this software individually would be",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "The discounted bundle price would be",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "How interested would you be in purchasing the software bundle shown below if it were offered at a  and cost ?",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "1 - Not interested at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely interested",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "We have just a few more questions about you and your company",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Aware",
+      "text": "[In addition to Axonius, which / Which], of the following providers of Cyber Asset Attack Surface Management (CAASM) software have you ever heard of?",
+      "text_struck": [
+        "if any, "
+      ],
+      "type": "multi",
+      "order": "alphabetical",
+      "options": [
+        {
+          "label": "Axonius",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Armis",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Qualys",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Rapid7",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "ServiceNow",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Tenable",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Other provider (Please specify)",
+          "terminate": false,
+          "anchor": true
+        },
+        {
+          "label": "None of the above",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Eval",
+      "text": "[In addition to Axonius, which / Which], , if any, of the following providers CAASM software have you ever evaluated for use in your company?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "None of the above",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": "Q_AWARE",
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Ever",
+      "text": "[In addition to Axonius, which / Which], , if any, of the following providers CAASM software have you ever used?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "None of the above",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": "Q_EVAL",
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Current",
+      "text": "Which, if any, of the following providers CAASM software do you currently use?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "None of the above",
+          "terminate": false,
+          "anchor": true
+        }
+      ],
+      "validation": {},
+      "carry_forward": "Q_EVER",
+      "ask_condition": null
+    },
+    {
+      "id": "Q_UseDr",
+      "text": "You mentioned you currently use Axonius’s CAASM software.  For which, if any, of the following reasons did you choose Axonius over other suppliers?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "randomize",
+      "options": [
+        {
+          "label": "Cost/pricing model",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Scalability",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Company reputation",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Ability to integrate with our systems",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Features or capabilities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Performance",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Reliability",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Total cost for the organization/company",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Innovation/history of product enhancements",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Ease of use",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Flexibility",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Support",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Data privacy/security",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Regulatory compliance",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Ease of deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Upgrade/maintenance policy",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Contract length",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Some other reason (Please specify)",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_Renew",
+      "text": "How likely are you to renew your subscription to Axionius software at the end of your current contract?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1 - Not likely at all",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7 - Extremely likely",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_NotUseReason",
+      "text": "You mentioned you had evaluated Axonius but do not currently use them.  For which, if any, of the following reasons did you choose not to use Axonius CAASM software?",
+      "text_struck": [],
+      "type": "multi",
+      "order": "randomize",
+      "options": [
+        {
+          "label": "Cost/pricing model",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Scalability",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Company reputation",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Ability to integrate with our systems",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Features or capabilities",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Performance",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Reliability",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Total cost for the organization/company",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Innovation/history of product enhancements",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Ease of use",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Support",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Data privacy/security",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Regulatory compliance",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Ease of deployment",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Some other reason (Please specify)",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": "Q_EVAL FOR AXIONIUS BUT NOT Q_CURRENT FOR AXONIUS"
+    },
+    {
+      "id": "Q_PricePref",
+      "text": "And which of these pricing models do you like best for CAASM software?.",
+      "text_struck": [],
+      "type": "single",
+      "order": "randomize",
+      "options": [
+        {
+          "label": "Usage based billing based on monthly active asset count",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Fixed price per asset based on pre-determined number of assets",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Fixed price per asset tier",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_TenureInd",
+      "text": "Less than 1 year",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1-2 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3-5 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "6-10 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "11-15 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "16-20 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "More than 20 years",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "Q_TenureJob",
+      "text": "Less than 1 year",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "1-2 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "3-4 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "5-6 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "7-8 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "9-10 years",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "More than 10 years",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_CompanyRevenue",
+      "text": "Which of the following best describes the average annual revenue of your company in a normal fiscal year?",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Less than $250K",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$250K to less than $500K",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$500K to less than $1M",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1M to less than $10M",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$10M to less than $50M",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$50M to less than $100M",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$250M to less than $500M",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$500M to less than $1B",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1B to less than $5B",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$5B to less than $10B",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$10B or more",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Don’t know",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Budget",
+      "text": "Approximately how much does your company spend annually on cyber security software?  This includes software acquisition costs, licensing, user licenses, device licenses, ongoing maintenance or updates, or any other costs associated with acquiring and using cyber security software.",
+      "text_struck": [],
+      "type": "single",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Less than $10,,000",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$10,000 to $24,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$25,000 to $49,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$50,000 to $99,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$100,000 to $149,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$150,000 to $199,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$200,000 to$299,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$300,000 to $499,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$500,000 to $999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$1,000,000 to $1,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$2,000,000 to $2,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$3,000,000 to $3,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$4,000,000 to $4,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$5,000,000 to $5,999,999",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "$6,000,000 or more",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Don’t know",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Follow",
+      "text": "Up. Would you be interested in participating in a follow-up 45-minute call?",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Yes",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "No",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {},
+      "carry_forward": null,
+      "ask_condition": null
+    },
+    {
+      "id": "S_Contact_Info",
+      "text": "First Name",
+      "text_struck": [],
+      "type": "unknown",
+      "order": "as_listed",
+      "options": [
+        {
+          "label": "Last Name",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Phone Number",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Country Code",
+          "terminate": false,
+          "anchor": false
+        },
+        {
+          "label": "Email",
+          "terminate": false,
+          "anchor": false
+        }
+      ],
+      "validation": {
+        "format": "phone"
+      },
+      "carry_forward": null,
+      "ask_condition": null
+    }
+  ]
+}

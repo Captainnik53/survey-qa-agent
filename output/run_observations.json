@@ -1,0 +1,1298 @@
+[
+  {
+    "qid": "S_Geography",
+    "text": "In which of the following regions do you currently work?",
+    "type": "single",
+    "options": [
+      "United States",
+      "Europe",
+      "Latin America",
+      "APAC",
+      "None of the above"
+    ],
+    "step": 0,
+    "profile": "base",
+    "screenshot": "output/shots/step00_S_Geography.png",
+    "action": "selected option 'United States'"
+  },
+  {
+    "qid": "S_FullTimeEmployment",
+    "text": "Which of the statements below best describes your employment status?",
+    "type": "single",
+    "options": [
+      "Employed full-time (35+ hours weekly)",
+      "Employed part-time",
+      "A student",
+      "A homemaker or caregiver",
+      "Retired",
+      "Unemployed",
+      "None of the above"
+    ],
+    "step": 1,
+    "profile": "base",
+    "screenshot": "output/shots/step01_S_FullTimeEmployment.png",
+    "action": "selected option 'Employed full-time (35+ hours weekly)'"
+  },
+  {
+    "qid": "S_DecisionMakingAuthority",
+    "text": "Which of the following below describes your decision-making authority in the evaluation or selection of cyber security or information security software?",
+    "type": "single",
+    "options": [
+      "I am the final decision maker",
+      "I am part of a team that makes the decisions",
+      "I influence the decisions",
+      "I have no input into decisions"
+    ],
+    "step": 2,
+    "profile": "base",
+    "screenshot": "output/shots/step02_S_DecisionMakingAuthority.png",
+    "action": "selected option 'I am the final decision maker'"
+  },
+  {
+    "qid": "S_JobSeniority",
+    "text": "Which of the following best describes your seniority within your organization?",
+    "type": "single",
+    "options": [
+      "C-Level",
+      "Department Head or Line of Business Head",
+      "Vice President (Executive, Senior, etc.)",
+      "Senior Director or Director",
+      "Senior Manager or Manager",
+      "Senior Analyst or Analyst",
+      "Staff Member or Individual Contributor",
+      "None of the above"
+    ],
+    "step": 3,
+    "profile": "base",
+    "screenshot": "output/shots/step03_S_JobSeniority.png",
+    "action": "selected option 'C-Level'"
+  },
+  {
+    "qid": "S_CoSize",
+    "text": "Which of the following best describes the size of your organization, including all locations worldwide? Your best estimate is fine.",
+    "type": "single",
+    "options": [
+      "Less than 100 employees",
+      "100 to 249 employees",
+      "250 to 499 employees",
+      "500 to 999 employees",
+      "1,000 to 1,499 employees",
+      "1,500 to 1,999 employees",
+      "2,000 to 2,499 employees",
+      "2,500 to 4,999 employees",
+      "5,000 to 9,999 employees",
+      "10,000 to 24,999 employees",
+      "25,000 to 49,999 employees",
+      "50,000 to 99,999 employees",
+      "100,000+ employees",
+      "Don’t know"
+    ],
+    "step": 4,
+    "profile": "base",
+    "screenshot": "output/shots/step04_S_CoSize.png",
+    "action": "selected option '5,000 to 9,999 employees'"
+  },
+  {
+    "qid": "S_CompanyInd",
+    "text": "Which of the below most closely describes your company’s industry?",
+    "type": "single",
+    "options": [
+      "Accounting, legal, consulting, or other professional services",
+      "Automotive",
+      "Construction",
+      "Consumer goods or manufacturing",
+      "Education",
+      "Energy",
+      "Finance services, banking, and insurance",
+      "Government",
+      "Hospital & Health Care",
+      "Information Technology, Technology,and Software",
+      "Marketing & Advertising",
+      "Media, gaming, or entertainment",
+      "Retail",
+      "Telecommunications",
+      "Other (Please specify)"
+    ],
+    "step": 5,
+    "profile": "base",
+    "screenshot": "output/shots/step05_S_CompanyInd.png",
+    "action": "selected option 'Information Technology, Technology,and Software'"
+  },
+  {
+    "qid": "S_Role",
+    "text": "Which of the following best describes your functional role at work? This would be your primary area of responsibility.",
+    "type": "single",
+    "options": [
+      "Administration or management",
+      "Cyber security/information security",
+      "Human Resources",
+      "IT/Information technology",
+      "Legal",
+      "Logistics",
+      "Marketing",
+      "Procurement",
+      "Sales",
+      "Other role"
+    ],
+    "step": 6,
+    "profile": "base",
+    "screenshot": "output/shots/step06_S_Role.png",
+    "action": "selected option 'Procurement'"
+  },
+  {
+    "qid": "S_ProcType",
+    "text": "You mentioned your functional role at work is in procurement. Which of the following areas of your company's purchases are you responsible for?",
+    "type": "multi",
+    "options": [
+      "Advertising, media and marketing (e.g., ad buys, marketing materials)",
+      "IT Hardware (e.g., laptops, servers, switches)",
+      "IT Software (e.g., Office 365, Antivirus, Network Monitoring)",
+      "Maintenance or repair services (e.g., housekeeping, janitorial, equipment maintenance)",
+      "Manufacturing equipment",
+      "Other areas",
+      "Professional Services (e.g., accounting, consulting)",
+      "Raw materials (e.g., components for manufacturing)"
+    ],
+    "step": 7,
+    "profile": "base",
+    "screenshot": "output/shots/step07_S_ProcType.png",
+    "action": "selected option 'IT Software (e.g., Office 365, Antivirus, Network Monitoring)'"
+  },
+  {
+    "qid": "S_Assets",
+    "text": "Which of the following devices or assets do you or employees in your company use that the organization manages?",
+    "type": "multi",
+    "options": [
+      "Mobile phones or tablets",
+      "Physical servers",
+      "Software as a Service (SaaS) applications",
+      "Containers (e.g., self-contained OS and applications, Docker containers)",
+      "Identities (e.g., user logins)",
+      "Software applications which require licensing, patching, updating, etc.",
+      "Desktop computers",
+      "Laptop computers",
+      "Virtualized personal computers",
+      "Virtualized servers",
+      "None of the above"
+    ],
+    "step": 8,
+    "profile": "base",
+    "screenshot": "output/shots/step08_S_Assets.png",
+    "action": "selected option 'Laptop computers'"
+  },
+  {
+    "qid": "S_Familiar",
+    "text": "How familiar are you with each of the following types of IT security software?",
+    "type": "grid",
+    "options": [
+      "Very familiar",
+      "Familiar",
+      "Somewhat familiar",
+      "Not familiar at all",
+      "Very familiar",
+      "Familiar",
+      "Somewhat familiar",
+      "Not familiar at all",
+      "Very familiar",
+      "Familiar",
+      "Somewhat familiar",
+      "Not familiar at all",
+      "Very familiar",
+      "Familiar",
+      "Somewhat familiar",
+      "Not familiar at all",
+      "Very familiar",
+      "Familiar",
+      "Somewhat familiar",
+      "Not familiar at all",
+      "Very familiar",
+      "Familiar",
+      "Somewhat familiar",
+      "Not familiar at all"
+    ],
+    "step": 9,
+    "profile": "base",
+    "screenshot": "output/shots/step09_S_Familiar.png",
+    "action": "grid: selected first column for 6 rows (via JS)"
+  },
+  {
+    "qid": "S_Usage",
+    "text": "Which, if any, of the following types of IT software does your company currently use?",
+    "type": "multi",
+    "options": [
+      "Endpoint security software (e.g., antivirus, antimalware)",
+      "Cyber Asset Attack Surface Management software (CAASM) (e.g., inventory connected devices and identify and remediate security issues)",
+      "Zero trust software (e.g., zero trust systems for access)",
+      "Systems management software (e.g., performance, usage, updates for servers)",
+      "Intrusion detection/intrusion prevention (IDS/IPS) (e.g., identify and prevent network intrusions)",
+      "Vulnerability management software (e.g., automate scanning, identify and address hardware vulnerabilities)",
+      "None of the above"
+    ],
+    "step": 10,
+    "profile": "base",
+    "screenshot": "output/shots/step10_S_Usage.png",
+    "action": "selected option 'Cyber Asset Attack Surface Management software (CAASM) (e.g., inventory connected devices and identify and remediate security issues)'"
+  },
+  {
+    "qid": "S_Intend",
+    "text": "Which, if any, of the following types of IT software does your company intend to purchase in the next 12 months?",
+    "type": "multi",
+    "options": [
+      "Endpoint security software (e.g., antivirus, antimalware)",
+      "Cyber Asset Attack Surface Management software (CAASM) (e.g., inventory connected devices and identify and remediate security issues)",
+      "Zero trust software (e.g., zero trust systems for access)",
+      "Systems management software (e.g., performance, usage, updates for servers)",
+      "Intrusion detection/intrusion prevention (IDS/IPS) (e.g., identify and prevent network intrusions)",
+      "Vulnerability management software (e.g., automate scanning, identify and address hardware vulnerabilities)",
+      "None of the above"
+    ],
+    "step": 11,
+    "profile": "base",
+    "screenshot": "output/shots/step11_S_Intend.png",
+    "action": "selected option 'Cyber Asset Attack Surface Management software (CAASM) (e.g., inventory connected devices and identify and remediate security issues)'"
+  },
+  {
+    "qid": "Q_Assets",
+    "text": "To the best of your knowledge, how many assets does your organization have based on the description above in each of the following categories?",
+    "type": "numeric",
+    "options": [
+      "Hardware or virtualized assets (e.g., physical or virtual laptops, servers, phones, tablets)",
+      "Identity or user login assets (e.g., network logins, software logins, SaaS logins)",
+      "Software assets (e.g., software instances or licenses)",
+      "SaaS assets (e.g., SaaS applications)"
+    ],
+    "step": 14,
+    "profile": "base",
+    "screenshot": "output/shots/step14_Q_Assets.png",
+    "action": "filled '100' into 4 field(s)"
+  },
+  {
+    "qid": "Q_PrefUserDev",
+    "text": "If you were shopping for CAASM software for your organization, would you prefer a per user based pricing model or a per device based pricing model? Please mark closer to the answer you prefer.",
+    "type": "single",
+    "options": [
+      "Per user based pricing model1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Per device based pricing model6"
+    ],
+    "step": 16,
+    "profile": "base",
+    "screenshot": "output/shots/step16_Q_PrefUserDev.png",
+    "action": "selected option 'Per user based pricing model1'"
+  },
+  {
+    "qid": "Q_PrefOverall",
+    "text": "And, would you prefer a per asset (users and/or devices) based pricing model or a tier based pricing model? Please mark closer to the answer you prefer.",
+    "type": "single",
+    "options": [
+      "Per asset based pricing model1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "Tier based pricing model6"
+    ],
+    "step": 17,
+    "profile": "base",
+    "screenshot": "output/shots/step17_Q_PrefOverall.png",
+    "action": "selected option 'Per asset based pricing model1'"
+  },
+  {
+    "qid": "Q_Billing",
+    "text": "If you could choose how a product like this would be billed, would you prefer to be billed monthly, quarterly, semi-annually, or annually?",
+    "type": "single",
+    "options": [
+      "Monthly",
+      "Quarterly",
+      "Semi-annually (2X per year)",
+      "Annually",
+      "Some other billing cadence (Please specify)"
+    ],
+    "step": 18,
+    "profile": "base",
+    "screenshot": "output/shots/step18_Q_Billing.png",
+    "action": "selected option 'Monthly'"
+  },
+  {
+    "qid": "Q_Int_Cyber",
+    "text": "Overall, how interested are you in acquiring this software package for your company?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 20,
+    "profile": "base",
+    "screenshot": "output/shots/step20_Q_Int_Cyber.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_SupportInt_Cyber",
+    "text": "There are two different support options which could be added to this product for an additional cost. How interested are you in each of these support options?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 21,
+    "profile": "base",
+    "screenshot": "output/shots/step21_Q_SupportInt_Cyber.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_VW_TC_Cyber",
+    "text": "Thinking about the product shown below:\n\nCyber Assets\nThis is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment.\n\nAt what annual cost would you feel the cost was too cheap? This would be a price which is so inexpensive that you would question the quality or ability of the software to perform as advertised.",
+    "type": "numeric",
+    "options": [],
+    "step": 23,
+    "profile": "base",
+    "screenshot": "output/shots/step23_Q_VW_TC_Cyber.png",
+    "action": "filled '1000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_RP_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was right? This would be a price you would expect and consider a reasonable value.",
+    "type": "numeric",
+    "options": [],
+    "step": 24,
+    "profile": "base",
+    "screenshot": "output/shots/step24_Q_VW_RP_Cyber.png",
+    "action": "filled '2000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_EX_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was expensive but reasonable? This would be a price which is more than you might have expected, and somewhat expensive but still reasonable for the value it provides.",
+    "type": "numeric",
+    "options": [],
+    "step": 25,
+    "profile": "base",
+    "screenshot": "output/shots/step25_Q_VW_EX_Cyber.png",
+    "action": "filled '3000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_TE_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was too expensive? This would be a price where it was so expensive that you would not consider it as the cost outweighs the value.",
+    "type": "numeric",
+    "options": [],
+    "step": 26,
+    "profile": "base",
+    "screenshot": "output/shots/step26_Q_VW_TE_Cyber.png",
+    "action": "filled '4000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_GGTP_Cyber",
+    "text": "Thinking about the product shown below:\n\nCyber Assets\nThis is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment.\n\nHow likely would you be to purchase this software for your company if the cost were 34000 per year?",
+    "type": "single",
+    "options": [
+      "Not likely at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely likely7"
+    ],
+    "step": 28,
+    "profile": "base",
+    "screenshot": "output/shots/step28_Q_GGTP_Cyber.png",
+    "action": "selected option 'Not likely at all1'"
+  },
+  {
+    "qid": "Q_GGL10_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 30600 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 29,
+    "profile": "base",
+    "screenshot": "output/shots/step29_Q_GGL10_Cyber.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGH10_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 37400 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 30,
+    "profile": "base",
+    "screenshot": "output/shots/step30_Q_GGH10_Cyber.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGH20_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 40800 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 31,
+    "profile": "base",
+    "screenshot": "output/shots/step31_Q_GGH20_Cyber.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGL20_Cyber",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 27200 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 32,
+    "profile": "base",
+    "screenshot": "output/shots/step32_Q_GGL20_Cyber.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_SupportPI_LP_Cyber",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 33,
+    "profile": "base",
+    "screenshot": "output/shots/step33_Q_SupportPI_LP_Cyber.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_SupportPI_HP_Cyber",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 34,
+    "profile": "base",
+    "screenshot": "output/shots/step34_Q_SupportPI_HP_Cyber.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_SupportPI_TP_Cyber",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 35,
+    "profile": "base",
+    "screenshot": "output/shots/step35_Q_SupportPI_TP_Cyber.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_Int_SaaS",
+    "text": "Overall, how interested are you in acquiring this software package for your company?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 37,
+    "profile": "base",
+    "screenshot": "output/shots/step37_Q_Int_SaaS.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_SupportInt_SaaS",
+    "text": "There are two different support options which could be added to this product for an additional cost. How interested are you in each of these support options?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 38,
+    "profile": "base",
+    "screenshot": "output/shots/step38_Q_SupportInt_SaaS.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_VW_TC_SaaS",
+    "text": "Thinking about the product shown below:\n\nSaaS Applications\nProvides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization.\n\nAt what annual cost would you feel the cost was too cheap? This would be a price which is so inexpensive that you would question the quality or ability of the software to perform as advertised.",
+    "type": "numeric",
+    "options": [],
+    "step": 40,
+    "profile": "base",
+    "screenshot": "output/shots/step40_Q_VW_TC_SaaS.png",
+    "action": "filled '1000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_RP_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was right? This would be a price you would expect and consider a reasonable value.",
+    "type": "numeric",
+    "options": [],
+    "step": 41,
+    "profile": "base",
+    "screenshot": "output/shots/step41_Q_VW_RP_SaaS.png",
+    "action": "filled '2000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_EX_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was expensive but reasonable? This would be a price which is more than you might have expected, and somewhat expensive but still reasonable for the value it provides.",
+    "type": "numeric",
+    "options": [],
+    "step": 42,
+    "profile": "base",
+    "screenshot": "output/shots/step42_Q_VW_EX_SaaS.png",
+    "action": "filled '3000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_TE_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was too expensive? This would be a price where it was so expensive that you would not consider it as the cost outweighs the value.",
+    "type": "numeric",
+    "options": [],
+    "step": 43,
+    "profile": "base",
+    "screenshot": "output/shots/step43_Q_VW_TE_SaaS.png",
+    "action": "filled '4000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_GGTP_SaaS",
+    "text": "Thinking about the product shown below:\n\nSaaS Applications\nProvides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization.\n\nHow likely would you be to purchase this software for your company if the cost were 45000 per year?",
+    "type": "single",
+    "options": [
+      "Not likely at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely likely7"
+    ],
+    "step": 45,
+    "profile": "base",
+    "screenshot": "output/shots/step45_Q_GGTP_SaaS.png",
+    "action": "selected option 'Not likely at all1'"
+  },
+  {
+    "qid": "Q_GGL10_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 40500 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 46,
+    "profile": "base",
+    "screenshot": "output/shots/step46_Q_GGL10_SaaS.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGH10_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 49500 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 47,
+    "profile": "base",
+    "screenshot": "output/shots/step47_Q_GGH10_SaaS.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGL20_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 36000 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 48,
+    "profile": "base",
+    "screenshot": "output/shots/step48_Q_GGL20_SaaS.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGH20_SaaS",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 54000 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 49,
+    "profile": "base",
+    "screenshot": "output/shots/step49_Q_GGH20_SaaS.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_SupportPI_TP_SaaS",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 50,
+    "profile": "base",
+    "screenshot": "output/shots/step50_Q_SupportPI_TP_SaaS.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_SupportPI_LP_SaaS",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 51,
+    "profile": "base",
+    "screenshot": "output/shots/step51_Q_SupportPI_LP_SaaS.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_SupportPI_HP_SaaS",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 52,
+    "profile": "base",
+    "screenshot": "output/shots/step52_Q_SupportPI_HP_SaaS.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_Int_Identity",
+    "text": "Overall, how interested are you in acquiring this software package for your company?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 54,
+    "profile": "base",
+    "screenshot": "output/shots/step54_Q_Int_Identity.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_SupportInt_Identity",
+    "text": "There are two different support options which could be added to this product for an additional cost. How interested are you in each of these support options?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 55,
+    "profile": "base",
+    "screenshot": "output/shots/step55_Q_SupportInt_Identity.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_VW_TC_Identity",
+    "text": "Thinking about the product shown below:\n\nIdentities\nUnifies all identity artifacts in one place to transform fragmented data into actionable insights – centralizing discovery, governance, posture, and incident response efforts for your IAM programs.\n\nAt what annual cost would you feel the cost was too cheap? This would be a price which is so inexpensive that you would question the quality or ability of the software to perform as advertised.",
+    "type": "numeric",
+    "options": [],
+    "step": 57,
+    "profile": "base",
+    "screenshot": "output/shots/step57_Q_VW_TC_Identity.png",
+    "action": "filled '1000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_RP_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was right? This would be a price you would expect and consider a reasonable value.",
+    "type": "numeric",
+    "options": [],
+    "step": 58,
+    "profile": "base",
+    "screenshot": "output/shots/step58_Q_VW_RP_Identity.png",
+    "action": "filled '2000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_EX_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was expensive but reasonable? This would be a price which is more than you might have expected, and somewhat expensive but still reasonable for the value it provides.",
+    "type": "numeric",
+    "options": [],
+    "step": 59,
+    "profile": "base",
+    "screenshot": "output/shots/step59_Q_VW_EX_Identity.png",
+    "action": "filled '3000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_VW_TE_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAt what annual cost would you feel the cost was too expensive? This would be a price where it was so expensive that you would not consider it as the cost outweighs the value.",
+    "type": "numeric",
+    "options": [],
+    "step": 60,
+    "profile": "base",
+    "screenshot": "output/shots/step60_Q_VW_TE_Identity.png",
+    "action": "filled '4000' into 1 field(s)"
+  },
+  {
+    "qid": "Q_GGTP_Identity",
+    "text": "Thinking about the product shown below:\n\nIdentities\nUnifies all identity artifacts in one place to transform fragmented data into actionable insights – centralizing discovery, governance, posture, and incident response efforts for your IAM programs.\n\nHow likely would you be to purchase this software for your company if the cost were 150000 per year?",
+    "type": "single",
+    "options": [
+      "Not likely at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely likely7"
+    ],
+    "step": 62,
+    "profile": "base",
+    "screenshot": "output/shots/step62_Q_GGTP_Identity.png",
+    "action": "selected option 'Not likely at all1'"
+  },
+  {
+    "qid": "Q_GGL20_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 120000 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 63,
+    "profile": "base",
+    "screenshot": "output/shots/step63_Q_GGL20_Identity.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGL10_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 135000 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 64,
+    "profile": "base",
+    "screenshot": "output/shots/step64_Q_GGL10_Identity.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGH10_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 165000 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 65,
+    "profile": "base",
+    "screenshot": "output/shots/step65_Q_GGH10_Identity.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_GGH20_Identity",
+    "text": "If you would like to see the product description again, please click here\n\nAnd, how likely would you be to purchase this software for your company if the cost were 180000 per year?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 66,
+    "profile": "base",
+    "screenshot": "output/shots/step66_Q_GGH20_Identity.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_SupportPI_TP_Identity",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 67,
+    "profile": "base",
+    "screenshot": "output/shots/step67_Q_SupportPI_TP_Identity.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_SupportPI_LP_Identity",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 68,
+    "profile": "base",
+    "screenshot": "output/shots/step68_Q_SupportPI_LP_Identity.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_SupportPI_HP_Identity",
+    "text": "Shown below are the two different support options for this product\n\nAdvanced Support: Designed for power users and businesses requiring prioritized service and in-depth expertise with access to a shared Technical Account Manager.\n\nEnterprise Support: Provides a comprehensive, highly personalized partnership with dedicated resources and proactive management for strategic success with access to a Dedicated Technical Account Manager.\n\nHow interested you would be in adding each of these support levels at the incremental annual cost shown?",
+    "type": "grid",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7",
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 69,
+    "profile": "base",
+    "screenshot": "output/shots/step69_Q_SupportPI_HP_Identity.png",
+    "action": "grid: selected first column for 2 rows (via JS)"
+  },
+  {
+    "qid": "Q_BundleIntB",
+    "text": "Next we would like to understand your interest in purchasing this type of software as a bundle. A bundle is when you get a package with multiple pieces of software at a discounted price.\n\nThis bundle would include the Cyber Assets, Software, and SaaS Applications products.\n\nCyber Assets\nDescription: This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment.\n\nSoftware Assets\nDescription: Provides actionable visibility into software usage across the organization – empowering Security, IT, and GRC teams to uncover unsanctioned software, manage EOL/EOS, and take control of costs.\n\nSaaS Applications\nDescription: Provides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization\n\nRegular price for this software individually would be 87400.\n\nThe discounted bundle price would be 74290.\n\nHow interested would you be in purchasing the software bundle shown below if it were offered at a 15% discount and cost 74290?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 70,
+    "profile": "base",
+    "screenshot": "output/shots/step70_Q_BundleIntB.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_BundleIntA",
+    "text": "Next we would like to understand your interest in purchasing this type of software as a bundle. A bundle is when you get a package with multiple pieces of software at a discounted price.\n\nThis bundle would include the Cyber Assets, Identities, and SaaS applications products.\n\nCyber Asset\nDescription: This is the trusted system of record for all digital infrastructure to ensure every technology asset across every system is continuously known, compliant, and protected without conflicts or blind spots. It can be deployed on-premises, in a private cloud as well as a SaaS deployment.\n\nIdentities\nDescription: Unifies all identity artifacts in one place to transform fragmented data into actionable insights – centralizing discovery, governance, posture, and incident response efforts for your IAM programs.\n\nSaaS Applications\nDescription: Provides a complete inventory of known and unknown SaaS applications and extensions, identifies misconfigurations and data security risks, and delivers insights for better IT management and cost optimization.\n\nRegular price for this software individually would be 229000.\n\nThe discounted bundle price would be 194650.\n\nHow interested would you be in purchasing the software bundle shown below if it were offered at a 15% discount and cost 194650?",
+    "type": "single",
+    "options": [
+      "Not interested at all1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "Extremely interested7"
+    ],
+    "step": 71,
+    "profile": "base",
+    "screenshot": "output/shots/step71_Q_BundleIntA.png",
+    "action": "selected option 'Not interested at all1'"
+  },
+  {
+    "qid": "Q_Aware_vis",
+    "text": "Which, if any, of the following providers of Cyber Asset Attack Surface Management (CAASM) software have you ever heard of?",
+    "type": "multi",
+    "options": [
+      "Armis",
+      "Axonius",
+      "Qualys",
+      "Rapid7",
+      "ServiceNow",
+      "Tenable",
+      "Other provider (Please specify)",
+      "None of the above"
+    ],
+    "step": 72,
+    "profile": "base",
+    "screenshot": "output/shots/step72_Q_Aware_vis.png",
+    "action": "selected option 'Armis'"
+  },
+  {
+    "qid": "Q_Eval_vis",
+    "text": "Which, if any, of the following providers CAASM software have you ever evaluated for use in your company?",
+    "type": "multi",
+    "options": [
+      "Armis",
+      "None of the above"
+    ],
+    "step": 73,
+    "profile": "base",
+    "screenshot": "output/shots/step73_Q_Eval_vis.png",
+    "action": "selected option 'Armis'"
+  },
+  {
+    "qid": "Q_Ever_vis",
+    "text": "Which, if any, of the following providers CAASM software have you ever used?",
+    "type": "multi",
+    "options": [
+      "Armis",
+      "None of the above"
+    ],
+    "step": 74,
+    "profile": "base",
+    "screenshot": "output/shots/step74_Q_Ever_vis.png",
+    "action": "selected option 'Armis'"
+  },
+  {
+    "qid": "Q_PricePref",
+    "text": "And which of these pricing models do you like best for CAASM software?.",
+    "type": "single",
+    "options": [
+      "Usage based billing based on monthly active asset count",
+      "Fixed price per asset tier",
+      "Fixed price per asset based on pre-determined number of assets"
+    ],
+    "step": 75,
+    "profile": "base",
+    "screenshot": "output/shots/step75_Q_PricePref.png",
+    "action": "selected option 'Usage based billing based on monthly active asset count'"
+  },
+  {
+    "qid": "Q_TenureInd",
+    "text": "For how long have you been working in IT or Cybersecurity?",
+    "type": "single",
+    "options": [
+      "Less than 1 year",
+      "1-2 years",
+      "3-5 years",
+      "6-10 years",
+      "11-15 years",
+      "16-20 years",
+      "More than 20 years"
+    ],
+    "step": 76,
+    "profile": "base",
+    "screenshot": "output/shots/step76_Q_TenureInd.png",
+    "action": "selected option 'Less than 1 year'"
+  },
+  {
+    "qid": "Q_TenureJob",
+    "text": "For how long have you been working in your current role?",
+    "type": "single",
+    "options": [
+      "Less than 1 year",
+      "1-2 years",
+      "3-4 years",
+      "5-6 years",
+      "7-8 years",
+      "9-10 years",
+      "More than 10 years"
+    ],
+    "step": 77,
+    "profile": "base",
+    "screenshot": "output/shots/step77_Q_TenureJob.png",
+    "action": "selected option 'Less than 1 year'"
+  },
+  {
+    "qid": "S_CompanyRevenue",
+    "text": "Which of the following best describes the average annual revenue of your company in a normal fiscal year?",
+    "type": "single",
+    "options": [
+      "Less than $250K",
+      "$250K to less than $500K",
+      "$500K to less than $1M",
+      "$1M to less than $10M",
+      "$10M to less than $50M",
+      "$50M to less than $100M",
+      "$250M to less than $500M",
+      "$500M to less than $1B",
+      "$1B to less than $5B",
+      "$5B to less than $10B",
+      "$10B or more",
+      "Don’t know"
+    ],
+    "step": 78,
+    "profile": "base",
+    "screenshot": "output/shots/step78_S_CompanyRevenue.png",
+    "action": "selected option 'Less than $250K'"
+  },
+  {
+    "qid": "S_Budget",
+    "text": "Approximately how much does your company spend annually on cyber security software? This includes software acquisition costs, licensing, user licenses, device licenses, ongoing maintenance or updates, or any other costs associated with acquiring and using cyber security software.",
+    "type": "single",
+    "options": [
+      "Less than $10,000",
+      "$10,000 to $24,999",
+      "$25,000 to $49,999",
+      "$50,000 to $99,999",
+      "$100,000 to $149,999",
+      "$150,000 to $199,999",
+      "$200,000 to $299,999",
+      "$300,000 to $499,999",
+      "$500,000 to $999,999",
+      "$1,000,000 to $1,999,999",
+      "$2,000,000 to $2,999,999",
+      "$3,000,000 to $3,999,999",
+      "$4,000,000 to $4,999,999",
+      "$5,000,000 to $5,999,999",
+      "$6,000,000 or more",
+      "Don’t know"
+    ],
+    "step": 79,
+    "profile": "base",
+    "screenshot": "output/shots/step79_S_Budget.png",
+    "action": "selected option 'Less than $10,000'"
+  },
+  {
+    "qid": "S_Follow_Up",
+    "text": "Would you be interested in participating in a follow-up 45-minute call?",
+    "type": "single",
+    "options": [
+      "Yes",
+      "No"
+    ],
+    "step": 80,
+    "profile": "base",
+    "screenshot": "output/shots/step80_S_Follow_Up.png",
+    "action": "selected option 'Yes'"
+  },
+  {
+    "qid": "S_Contact_Info",
+    "text": "Please provide your contact information.",
+    "type": "text",
+    "options": [
+      "First Name",
+      "Last Name",
+      "Phone Number",
+      "Country Code",
+      "Email"
+    ],
+    "step": 81,
+    "profile": "base",
+    "screenshot": "output/shots/step81_S_Contact_Info.png",
+    "action": "filled 'test' into 5 field(s)"
+  },
+  {
+    "qid": "S_Contact_Info",
+    "text": "Please provide your contact information.",
+    "type": "text",
+    "options": [
+      "First Name",
+      "Last Name",
+      "Phone Number",
+      "Country Code",
+      "Email"
+    ],
+    "step": 82,
+    "profile": "base",
+    "screenshot": "output/shots/step82_S_Contact_Info.png",
+    "action": "filled 'test' into 5 field(s)"
+  },
+  {
+    "step": 83,
+    "event": "STALLED",
+    "qids": [
+      "S_Contact_Info"
+    ],
+    "profile": "base",
+    "screenshot": "output/shots/step83_STALLED_S_Contact_Info.png"
+  }
+]

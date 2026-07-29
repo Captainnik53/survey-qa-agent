@@ -1,0 +1,18 @@
+{
+  "universe": 47,
+  "covered": 41,
+  "coverage_pct": 87,
+  "n_candidates": 11,
+  "n_measured": 1,
+  "selected_profiles": [
+    "base"
+  ],
+  "uncovered": [
+    "Q_Current",
+    "Q_NotUseReason",
+    "Q_PrefINTRO",
+    "Q_Renew",
+    "Q_UseDr",
+    "S_Follow"
+  ]
+}

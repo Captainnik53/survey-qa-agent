@@ -1,0 +1,18 @@
+# secrets — never commit
+.env
+
+# python cruft
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# run artifacts: ignore logs and the heavy/secondary walks, but KEEP the demo caches
+# (output/*.json, output/shots/, output/routing/) so a fresh deploy has instant "Load last run".
+output/*.log
+output/st*.log
+output/streamlit*
+output/shots_B/
+output/shots_cov/
+output/probes/

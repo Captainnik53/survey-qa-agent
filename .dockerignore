@@ -1,0 +1,21 @@
+# secrets never go in the image — set ANTHROPIC_API_KEY as a platform secret
+.env
+.git
+.gitignore
+
+# python cruft
+__pycache__/
+**/__pycache__/
+*.pyc
+.venv/
+venv/
+
+# heavy / unneeded run artifacts (keep output/shots + output/routing + output/*.json
+# so instant "demo mode" works out of the box)
+output/*.log
+output/st*.log
+output/streamlit*
+output/shots_B/
+output/shots_cov/
+output/probes/
+output/*.html

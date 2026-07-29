@@ -1,0 +1,158 @@
+{
+  "summary": {
+    "n_issues": 3,
+    "n_flagged_high": 3,
+    "n_spec_issue": 0,
+    "n_review_queue": 0,
+    "recall": "100%",
+    "precision_flagged": "100%",
+    "caught": [
+      {
+        "qid": "S_ProcType",
+        "type": "Visual",
+        "desc": "'Other' not anchored at the end",
+        "confidence": "High"
+      },
+      {
+        "qid": "Q_Aware",
+        "type": "Textual",
+        "desc": "struck 'if any' still shown",
+        "confidence": "High"
+      },
+      {
+        "qid": "S_Role",
+        "type": "Textual",
+        "desc": "option 'Market' (spec) shown as 'Marketing' (live)",
+        "confidence": "High"
+      }
+    ],
+    "missed": [],
+    "coverage": {
+      "pct": 89,
+      "covered": 41,
+      "target": 46,
+      "paths": 1,
+      "uncovered": [
+        "Q_Current",
+        "Q_NotUseReason",
+        "Q_Renew",
+        "Q_UseDr",
+        "S_Follow"
+      ],
+      "selected_profiles": [
+        "base"
+      ],
+      "candidate_pool": [
+        "base",
+        "role::Administration or ",
+        "role::Cyber security/inf",
+        "role::Human Resources",
+        "role::IT/Information tec",
+        "role::Legal",
+        "role::Logistics",
+        "role::Market",
+        "role::Procurement",
+        "role::Sales",
+        "gated::S_ProcType"
+      ],
+      "per_candidate_reach": {
+        "base": [
+          "Q_Assets",
+          "Q_Aware",
+          "Q_Billing",
+          "Q_BundleIntA",
+          "Q_BundleIntB",
+          "Q_Eval",
+          "Q_Ever",
+          "Q_GGH10",
+          "Q_GGH20",
+          "Q_GGL10",
+          "Q_GGL20",
+          "Q_GGTP",
+          "Q_Int",
+          "Q_PrefOverall",
+          "Q_PrefUserDev",
+          "Q_PricePref",
+          "Q_SupportInt",
+          "Q_SupportPI_HP",
+          "Q_SupportPI_LP",
+          "Q_SupportPI_TP",
+          "Q_TenureInd",
+          "Q_TenureJob",
+          "Q_VW_EX",
+          "Q_VW_RP",
+          "Q_VW_TC",
+          "Q_VW_TE",
+          "S_Assets",
+          "S_Budget",
+          "S_CoSize",
+          "S_CompanyInd",
+          "S_CompanyRevenue",
+          "S_Contact_Info",
+          "S_DecisionMakingAuthority",
+          "S_Familiar",
+          "S_FullTimeEmployment",
+          "S_Geography",
+          "S_Intend",
+          "S_JobSeniority",
+          "S_ProcType",
+          "S_Role",
+          "S_Usage"
+        ]
+      }
+    }
+  },
+  "issues": [
+    {
+      "qid": "S_ProcType",
+      "check": "anchor_position",
+      "issue_type": "Visual",
+      "explanation": "Anchor option 'Other areas' should be pinned to the bottom but renders above 2 other option(s): ['Professional Services (e.g., accounting, consulting)', 'Raw materials (e.g., components for manufacturing)'].",
+      "expected": "'Other areas' last in the option list",
+      "observed": "live order: ['Advertising, media and marketing (e.g., ad buys, marketing materials)', 'IT Hardware (e.g., laptops, servers, switches)', 'IT Software (e.g., Office 365, Antivirus, Network Monitoring)', 'Maintenance or repair services (e.g., housekeeping, janitorial, equipment maintenance)', 'Manufacturing equipment', 'Other areas', 'Professional Services (e.g., accounting, consulting)', 'Raw materials (e.g., components for manufacturing)']",
+      "spec_clause": "S_ProcType: 'Other areas' is an anchor option",
+      "screenshot": "output/shots/step07_S_ProcType.png",
+      "confidence": "High",
+      "confidence_factors": {
+        "spec_parse": "high (option list + anchor/order markers)",
+        "observation": "high (live DOM order captured directly)",
+        "determinism": "high (positional comparison)"
+      },
+      "bucket": "flagged"
+    },
+    {
+      "qid": "Q_Aware",
+      "check": "struck_text_present",
+      "issue_type": "Textual",
+      "explanation": "Text 'if any, ' is struck-through (deleted) in the questionnaire but still appears in the live survey.",
+      "expected": "'if any,' removed from the question",
+      "observed": "Which, if any, of the following providers of Cyber Asset Attack Surface Management (CAASM) software have you ever heard of?",
+      "spec_clause": "Q_Aware: struck run 'if any, '",
+      "screenshot": "output/shots/step72_Q_Aware_vis.png",
+      "confidence": "High",
+      "confidence_factors": {
+        "spec_parse": "high (explicit strike-through run)",
+        "observation": "high (exact substring present)",
+        "determinism": "high (substring match)"
+      },
+      "bucket": "flagged"
+    },
+    {
+      "qid": "S_Role",
+      "check": "option_wording",
+      "issue_type": "Textual",
+      "explanation": "Answer option wording differs from the questionnaire: spec 'Market' vs live 'Marketing'.",
+      "expected": "Market",
+      "observed": "Marketing",
+      "spec_clause": "S_Role: answer option label",
+      "screenshot": "output/shots/step06_S_Role.png",
+      "confidence": "High",
+      "confidence_factors": {
+        "spec_parse": "high (option label parsed)",
+        "observation": "high (live option label captured from DOM)",
+        "determinism": "high (same option, text provably differs)"
+      },
+      "bucket": "flagged"
+    }
+  ]
+}

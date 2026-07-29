@@ -1,0 +1,17 @@
+# Fly.io config (alternative to Render). Deploy with:  flyctl launch --no-deploy  then  flyctl deploy
+app = "survey-qa-agent"
+primary_region = "sin"          # Singapore — near the Decipher survey host
+
+[build]
+  dockerfile = "Dockerfile"
+
+[http_service]
+  internal_port = 8501
+  force_https = true
+  auto_stop_machines = false     # Streamlit is a persistent server — don't let it sleep mid-walk
+  auto_start_machines = true
+  min_machines_running = 1
+
+[[vm]]
+  size = "shared-cpu-2x"
+  memory = "2gb"                 # Chromium walks need the headroom
